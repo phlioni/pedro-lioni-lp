@@ -39,6 +39,7 @@ export default function RootLayout({
           Pular para o conteúdo
         </a>
         {children}
+        {/* GA4: ID vem de variável de ambiente (ex.: Vercel > Environment Variables) */}
         {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ? (
           <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
         ) : null}
