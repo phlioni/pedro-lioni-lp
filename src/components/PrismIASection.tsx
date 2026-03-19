@@ -84,11 +84,7 @@ export function PrismIASection() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            <span className="text-white font-semibold">A primeira solução de ponta a ponta</span> que conduzi com
-            estratégia, execução e impacto real foi o{" "}
-            <span className="text-accent-green font-medium">prismIA</span>, apresentado no{" "}
-            <span className="text-white font-medium">Santos Digital Week</span>. Inteligência e experiência
-            conectando pontos no ecossistema digital de Santos.
+            Dos <span className="text-white font-semibold">diagramas de giz na madeira do almoxarifado</span> aos <span className="text-white font-semibold">palcos de inovação</span>. A primeira solução de ponta a ponta que conduzi com <span className="text-accent-green font-medium">estratégia, execução e impacto real</span> foi o <span className="text-accent-green font-semibold">prismIA</span>, um projeto focado em inteligência e experiência no ecossistema digital, apresentado no palco do Santos Digital Week.
           </motion.p>
           <motion.p
             className="text-zinc-300 leading-relaxed text-base"
@@ -97,8 +93,7 @@ export function PrismIASection() {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            <span className="text-accent-green font-medium">Pós-Graduação em Digital Product Management na FIAP</span>
-            {" "}— elevando a prática ao estado da arte e formalizando o que aplico no dia a dia no Hub.
+            Para elevar toda essa bagagem prática ao estado da arte, estou cursando a <span className="text-white font-semibold">pós-graduação em Digital Product Management na FIAP</span>. É a formalização acadêmica da visão de produto que aplico todos os dias: construir soluções <span className="text-accent-green font-medium">viáveis, desejáveis e escaláveis</span>.
           </motion.p>
           <motion.div
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-industrial-border bg-industrial-panel text-accent-green text-sm font-medium"

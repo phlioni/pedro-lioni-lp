@@ -18,47 +18,33 @@ const TIMELINE_ITEMS = [
         <br /><br />
         Os dados técnicos estavam em planilhas que os computadores mal abriam. Desenvolvi um projeto para{" "}
         <strong className="text-white">digitalizar tudo isso na NET</strong>. Pouco antes da entrega, um amigo me
-        ligou: a empresa dele precisava de um desenvolvedor.
+        ligou: a empresa dele precisava de um <strong className="text-accent-green">desenvolvedor</strong>.
       </>
     ),
   },
   {
     id: "crmzen",
     company: "CRM Zen",
-    period: "Primeira atuação como dev",
+    period: "Liderança por sobrevivência",
     side: "right" as const,
     content: (
       <>
         Fui à <strong className="text-white">CRM Zen</strong> com o manual do sistema que tinha construído na NET.
-        Sincero: conhecimentos técnicos baixos, força de vontade gigantesca. O dono me ofereceu{" "}
-        <strong className="text-accent-green">Pleno</strong> — eu esperava Júnior.{" "}
-        <strong className="text-accent-green border-l-4 border-accent-green pl-2 block my-3">
-          O esforço vale mais do que o talento.
-        </strong>
-        No primeiro dia, medo. Seis meses depois a sênior saiu; fiquei sozinho. Tive que aprender em pouco tempo o que
-        levaria um ano e duas semanas — a tecnologia <strong className="text-white">.NET</strong> (Microsoft).{" "}
-        <strong className="text-white">&quot;Aprendizado por sobrevivência&quot;</strong>. Em seis meses,{" "}
-        <strong className="text-accent-green">sobrevivência virou liderança técnica</strong>.
+        Sincero: conhecimentos técnicos ainda em formação, mas uma <strong className="text-white">capacidade de resolução de problemas gigantesca</strong>. Entrei como <strong className="text-accent-green">Pleno</strong>. Seis meses depois, com a saída da desenvolvedora sênior, assumi a <strong className="text-white">operação sozinho</strong>. Tive que aprender na marra o que levaria mais de um ano. A sobrevivência se transformou na minha primeira <strong className="text-accent-green">liderança técnica</strong>.
       </>
     ),
   },
   {
     id: "mosten",
     company: "ModalGR (Mosten)",
-    period: "Dez 2021 — Hoje",
+    period: "A ponte entre código e negócio",
     side: "left" as const,
     hasImage: true,
     content: (
       <>
-        Entrei na <strong className="text-white">ModalGR (Mosten)</strong> em dezembro de 2021 como{" "}
-        <strong className="text-accent-green">Full Stack Developer</strong>: .NET Core, Entity Framework, Angular —
-        processos automatizados, produtividade. Depois assumi <strong className="text-white">Tech Lead</strong>:
-        desenvolvimento de pessoas, arquiteturas para mineradoras e portos, comunicação com cliente.
+        Entrei em 2021 como <strong className="text-accent-green">Full Stack Developer</strong>, focado em <strong className="text-white">automatizar processos e gerar produtividade</strong>. A visão de produto falou mais alto e logo assumi como <strong className="text-white">Tech Lead</strong>: passei a desenhar arquiteturas para <strong className="text-accent-green">mineradoras e portos</strong>, focando no desenvolvimento do time e na comunicação direta com o cliente para garantir que a tecnologia <strong className="text-white">resolvesse a dor certa</strong>.
         <br /><br />
-        Hoje sou <strong className="text-accent-green">Coordenador do Business &amp; Solutions Hub</strong> e Gerente
-        de Produto: discovery, roadmaps (RICE/MoSCoW), OKRs, workshops com usuários e stakeholders, ponte entre
-        negócio e time técnico. Participo de eventos da empresa, como o <strong className="text-white">IA Experience</strong> da
-        Mosten, realizado no <strong className="text-white">JOTA CO</strong> — com palestrantes de peso, entre eles Guilherme Horn (CEO da META).
+        Participo de eventos da empresa, como o <strong className="text-white">IA Experience</strong> da Mosten, realizado no <strong className="text-white">JOTA CO</strong> — com palestrantes de peso, entre eles Guilherme Horn (CEO da META).
       </>
     ),
   },

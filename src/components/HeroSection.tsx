@@ -39,13 +39,10 @@ export function HeroSection() {
         </h1>
         <p className="text-lg md:text-xl text-zinc-300 mb-5 leading-[1.65]">
           Sou Pedro Lioni. Aprendi na prática que, quando a ferramenta ideal não existe,
-          quem faz a diferença é quem constrói a que resolve o problema.
+          quem faz a diferença é quem <span className="text-white font-semibold">constrói a que resolve o problema</span>.
         </p>
         <p className="text-base text-zinc-400 leading-[1.65] mb-10">
-          <span className="text-white font-semibold">Product Manager e Arquiteto de Negócios</span>
-          {" "}— traduzo estratégias complexas em{" "}
-          <span className="text-accent-green font-medium">soluções digitais de impacto</span>, unindo
-          bagagem técnica e visão centrada no usuário e no negócio.
+          Como <span className="text-white font-semibold">Product Manager e ex-desenvolvedor</span>, traduzo estratégias complexas em soluções digitais de impacto. Uno a bagagem técnica necessária para <span className="text-accent-green font-medium">dialogar com a engenharia</span> à visão de negócios indispensável para <span className="text-white font-semibold">gerar lucro e valor ao usuário</span>.
         </p>
         <motion.a
           href="#erro-critico"

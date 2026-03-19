@@ -36,7 +36,7 @@ export function TacticalLogsSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          Algumas das minhas publicações no LinkedIn: temas de produto, liderança e tecnologia.
+          Algumas das minhas publicações no LinkedIn: temas de <span className="text-white font-semibold">produto, liderança e tecnologia</span>.
           Acompanhe para mais.
         </motion.p>
         <motion.div

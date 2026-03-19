@@ -6,22 +6,38 @@ const PILARES = [
   {
     id: "resolver",
     label: "Resolver",
-    text: "Entregar soluções que resolvem dores reais — do discovery ao delivery, com foco em valor e impacto no negócio.",
+    content: (
+      <>
+        Entregar soluções que <span className="text-white font-semibold">resolvem dores reais</span> — do discovery ao delivery, com foco em <span className="text-accent-green font-medium">valor e impacto no negócio</span>.
+      </>
+    ),
   },
   {
     id: "liderar",
     label: "Liderar",
-    text: "Desenvolver pessoas e times multidisciplinares, alinhando visão técnica e de produto para resultados sustentáveis.",
+    content: (
+      <>
+        Desenvolver pessoas e <span className="text-white font-semibold">times multidisciplinares</span>, alinhando visão técnica e de produto para <span className="text-accent-green font-medium">resultados sustentáveis</span>.
+      </>
+    ),
   },
   {
     id: "proteger",
     label: "Proteger",
-    text: "Garantir qualidade, alinhamento com stakeholders e arquiteturas viáveis que escalem e se mantenham no tempo.",
+    content: (
+      <>
+        Garantir qualidade, alinhamento com stakeholders e <span className="text-white font-semibold">arquiteturas viáveis</span> que <span className="text-accent-green font-medium">escalem e se mantenham no tempo</span>.
+      </>
+    ),
   },
   {
     id: "prosperar",
     label: "Prosperar",
-    text: "Gerar resultado para o negócio e crescimento para as pessoas — a ponte entre o código e o lucro.",
+    content: (
+      <>
+        Gerar resultado para o negócio e crescimento para as pessoas — <span className="text-white font-semibold">a ponte entre o código e o lucro</span>.
+      </>
+    ),
   },
 ];
 
@@ -67,7 +83,7 @@ export function PilaresCommLinkSection() {
                 {pilar.label}
               </span>
               <p className="text-zinc-400 text-sm leading-relaxed flex-1">
-                {pilar.text}
+                {pilar.content}
               </p>
             </motion.div>
           ))}
@@ -80,7 +96,7 @@ export function PilaresCommLinkSection() {
           viewport={{ once: true }}
         >
           Ainda não cheguei onde sei que posso, mas hoje estou exatamente onde sempre quis estar:{" "}
-          <span className="text-white font-semibold">construindo o futuro</span>.
+          <span className="text-white font-bold">construindo o futuro</span>.
         </motion.p>
         <motion.p
           className="text-zinc-400 text-center text-base max-w-2xl mx-auto mb-16 leading-relaxed"
@@ -89,7 +105,7 @@ export function PilaresCommLinkSection() {
           viewport={{ once: true }}
         >
           <span className="text-accent-green font-semibold">Busco meu próximo desafio em Product Management</span>, com
-          visão 360° — técnica, negócio e usuário — para construir produtos escaláveis e de sucesso.
+          <span className="text-white font-semibold"> visão 360° — técnica, negócio e usuário</span> — para construir produtos <span className="text-accent-green font-medium">escaláveis e de sucesso</span>.
         </motion.p>
 
         <motion.div
@@ -108,7 +124,7 @@ export function PilaresCommLinkSection() {
               Conectar via WhatsApp
             </span>
             <span className="block text-white font-semibold text-sm">
-              Disponível para novos desafios
+              Vamos conversar?
             </span>
           </a>
         </motion.div>

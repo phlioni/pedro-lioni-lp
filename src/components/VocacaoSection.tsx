@@ -78,13 +78,7 @@ export function VocacaoSection() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            Hoje lidero o{" "}
-            <span className="text-white font-semibold">&quot;Business & Solutions Hub&quot;</span>
-            {" "}na Mosten, atuando como{" "}
-            <span className="text-accent-green font-medium">Product Manager principal e Arquiteto de Negócios</span>
-            {" "}— a ponte entre negócio e time técnico. Gestão do ciclo de vida de múltiplas soluções
-            digitais: <span className="text-zinc-200 font-medium">discovery</span>, ideação,{" "}
-            <span className="text-zinc-200 font-medium">delivery</span> e iteração.
+            Hoje lidero o <span className="text-white font-semibold">Business &amp; Solutions Hub</span> na Mosten. Atuo essencialmente como <span className="text-accent-green font-semibold">Product Manager e Arquiteto de Negócios</span> — sou a <span className="text-white font-semibold">ponte definitiva</span> entre o problema do cliente, a viabilidade técnica e a estratégia da empresa.
           </motion.p>
           <motion.p
             initial={{ opacity: 0 }}
@@ -92,25 +86,7 @@ export function VocacaoSection() {
             viewport={{ once: true }}
             transition={{ delay: 0.05 }}
           >
-            Defino <span className="text-white font-medium">roadmaps estratégicos</span> e priorizo o backlog com{" "}
-            <span className="text-zinc-200 font-medium">RICE e MoSCoW</span>, alinhado aos{" "}
-            <span className="text-zinc-200 font-medium">OKRs</span> da companhia. Conduzo workshops de ideação e
-            entrevistas com usuários e stakeholders para requisitos e validação de hipóteses.
-            Traduzo necessidades de negócio em <span className="text-accent-green font-medium">arquiteturas de solução viáveis</span>,
-            com escalabilidade e manutenção.
-          </motion.p>
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-          >
-            Gestiono e mentorio <span className="text-white font-medium">times multidisciplinares</span> — devs, QAs,
-            designers — com cultura de alta performance. Como Coordenador, descobri que minha
-            arquitetura não era apenas de software, mas de negócios:{" "}
-            <span className="text-accent-green font-semibold border-l-4 border-accent-green pl-2 block mt-2">
-              a ponte entre o código e o lucro.
-            </span>
+            Faço a <span className="text-white font-semibold">gestão de ponta a ponta</span> do ciclo de vida de múltiplas soluções digitais, desde o discovery e ideação até o delivery. Mais do que coordenar times multidisciplinares de alta performance, eu descubro que a arquitetura mais importante que construo não é a de software, é a de negócios: <span className="text-accent-green font-semibold border-l-4 border-accent-green pl-2 block mt-2">a ponte que conecta o código ao lucro.</span>
           </motion.p>
         </div>
       </div>

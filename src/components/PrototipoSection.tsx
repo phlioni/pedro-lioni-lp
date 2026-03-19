@@ -26,10 +26,10 @@ export function PrototipoSection() {
 
         <div className="space-y-6 text-zinc-300 leading-relaxed max-w-3xl mx-auto mb-10">
           <p className="text-center text-base md:text-lg">
-            No almoxarifado existia um processo totalmente manual: todos os dias os técnicos
+            No almoxarifado existia um processo <span className="text-white font-semibold">totalmente manual</span>: todos os dias os técnicos
             tinham que vir, pegar um papel e preencher com os componentes que necessitavam para
             trabalhar no próximo dia. Nós pegávamos aqueles papéis, montávamos os kits e
-            colocávamos nos armários de cada um. Uma pilha enorme de caixas com papel preenchia
+            colocávamos nos armários de cada um. Uma <span className="text-white font-semibold">pilha enorme de caixas com papel</span> preenchia
             um espaço considerável da nossa área de trabalho.
           </p>
           <p className="text-center text-base md:text-lg">
@@ -38,7 +38,7 @@ export function PrototipoSection() {
             almoxarifado. Quem entrava achava aquilo uma loucura; outro dizia que poderia dar certo,
             mas que com a burocracia da empresa aquilo morreria antes de nascer. Aprendi uma lição:
             <span className="text-white font-semibold">Quando você tem convicção de que algo vai dar certo</span>,
-            mesmo que as probabilidades lutem contra, você dá um jeito de fazer acontecer.
+            mesmo que as probabilidades lutem contra, você <span className="text-accent-green font-medium">dá um jeito de fazer acontecer</span>.
           </p>
           <p className="text-center text-base md:text-lg">
             Um mês depois consegui um tablet e um computador velho.{" "}
@@ -109,19 +109,46 @@ export function PrototipoSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center mt-10">
           {[
-            "Fim dos formulários.",
-            "Controle real.",
-            "Visibilidade estratégica.",
-          ].map((line, i) => (
+            {
+              key: "formularios",
+              content: (
+                <>
+                  <span className="text-white font-semibold">Fim dos formulários:</span> Redução de{" "}
+                  <span className="text-white font-bold">90%</span> no uso de{" "}
+                  <span className="text-white font-semibold">papel e processos manuais</span>.
+                </>
+              ),
+            },
+            {
+              key: "controle",
+              content: (
+                <>
+                  <span className="text-white font-semibold">Controle real:</span> Economia de{" "}
+                  <span className="text-white font-bold">6 horas semanais</span> na montagem dos kits, otimizando o{" "}
+                  <span className="text-white font-semibold">tempo dos técnicos</span>.
+                </>
+              ),
+            },
+            {
+              key: "visibilidade",
+              content: (
+                <>
+                  <span className="text-white font-semibold">Visibilidade estratégica:</span> Geração de dados e relatórios em{" "}
+                  <span className="text-white font-bold">tempo real</span> para a gerência, algo que{" "}
+                  <span className="text-white font-semibold">antes não existia</span>.
+                </>
+              ),
+            },
+          ].map((item, i) => (
             <motion.div
-              key={line}
+              key={item.key}
               className="text-accent-green border border-industrial-border bg-industrial-panel py-4 px-4 rounded-lg text-sm font-medium"
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 * i }}
             >
-              {line}
+              {item.content}
             </motion.div>
           ))}
         </div>

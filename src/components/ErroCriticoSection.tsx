@@ -45,12 +45,16 @@ export function ErroCriticoSection() {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
             >
-              Com a participação de lucros da empresa, comprei meu primeiro carro. Seis meses depois
-              descobrimos que ele tinha sido clonado: multas chegavam de lugares que eu nem sabia
-              pronunciar o nome. Na empresa eu trabalhava dirigindo e a cada seis meses a companhia
-              verificava se todos estavam com a CNH em dia. Quando chegou minha vez de validar, lá
-              estavam 40 pontos. Eu já tinha avisado meus superiores, mas de todo modo provavelmente
-              seria demitido.
+              Com a participação de lucros da empresa, comprei meu <span className="text-white font-semibold">primeiro carro</span>. Era uma conquista importante, mas seis meses depois veio o choque: descobrimos que ele tinha sido <span className="text-accent-red font-medium">clonado</span>. Multas chegavam de lugares que eu nem sabia pronunciar o nome. Na época, eu trabalhava dirigindo e a cada seis meses a empresa auditava as CNHs. Quando chegou a minha vez, lá estavam <span className="text-white font-bold">40 pontos</span>. O risco de demissão era quase certo.
+            </motion.p>
+            <motion.p
+              className="text-base md:text-lg"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.05 }}
+            >
+              O peso daquela situação não era apenas devolver o crachá: era a responsabilidade de garantir a <span className="text-white font-semibold">segurança da minha esposa</span> — que na época estava <span className="text-white font-semibold">grávida do nosso primeiro filho</span> — e o futuro da nossa família. <span className="text-accent-green font-semibold">O que parecia o fim foi o reboot necessário.</span>
             </motion.p>
             <motion.p
               className="text-base md:text-lg"
@@ -59,13 +63,7 @@ export function ErroCriticoSection() {
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
             >
-              <span className="text-white font-semibold">O que parecia o fim foi o reboot necessário.</span>
-              {" "}Percebi que o almoxarifado estava com problemas por alta demanda e apenas uma pessoa
-              para dar conta. Me ofereci e fui aceito para trabalhar ali — com o risco de nunca mais
-              ter um cargo mais alto, mas preocupado em manter a torneira aberta. Depois eu montaria{" "}
-              <span className="text-accent-green font-medium">um plano que mudaria minha vida</span>.
-              Foi ali que a tecnologia deixou de ser hobby e{" "}
-              <span className="text-white font-semibold">virou sobrevivência</span>.
+              Percebi que o almoxarifado estava um <span className="text-white font-semibold">caos</span>, com alta demanda e apenas uma pessoa. Me ofereci para trabalhar ali. O status profissional poderia ser menor, mas a <span className="text-white font-semibold">torneira continuava aberta para a minha família</span>. Depois, eu montaria um plano. Foi naquele ambiente hostil que a tecnologia deixou de ser hobby e <span className="text-accent-green font-semibold">virou a nossa sobrevivência</span>.
             </motion.p>
           </div>
         </div>
