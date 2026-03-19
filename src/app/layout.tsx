@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { JetBrains_Mono, Outfit } from "next/font/google";
 import "./globals.css";
 
@@ -38,6 +39,9 @@ export default function RootLayout({
           Pular para o conteúdo
         </a>
         {children}
+        {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ? (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+        ) : null}
       </body>
     </html>
   );
